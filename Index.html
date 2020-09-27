@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javascript Practice</title>
+<link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+<header>
+  <h1>Simple Javascript Shape resize tool</h1>
+</header>
+    
+<form id="my-form">
+<div class="wrapper">
+    
+ <div class="select-wrapper">
+    <select name="cssProperty" id="background">
+     <option value="green">Green</option>
+     <option value="yellow">yellow</option>
+     <option value="red">red</option>
+     <option value="gray">gray</option>
+  </select>
+ </div>
+    
+ <div class="select-wrapper">
+  <select name="cssProperty" id="width">
+    <option value="100px">100px</option>
+    <option value="200px">200px</option>
+    <option value="300">300px</option>
+    <option value="400px">400px</option>
+  </select>
+ </div> 
+    
+ <div class="select-wrapper">
+  <select name="cssProperty" id="height">
+    <option value="100px">100px</option>
+    <option value="200px">200px</option>
+    <option value="300px">300px</option>
+    <option value="400px">400px</option>
+  </select>
+ </div>
+    
+ <div class="select-wrapper">
+  <select name="cssProperty" id="border">
+    <option value="thick solid black">thick solid black</option>
+    <option value="thin dotted blue">thin dotted blue</option>
+    <option value="thick solid pink">thick solid pink</option>
+    <option value="thin dotted brown">thin dotted brown</option>
+  </select>
+ </div>
+</div>   
+</form>
+    <button id="set" type="submit" form="my-form">Set Shape</button>
+    
+<div id="modify" style="width:250px; height: 250px; background: crimson; margin: 3rem auto;">
+</div>
+
+<!--script-->   
+<script src="/Script.js"></script>
+</body>
+</html>
